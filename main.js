@@ -1,10 +1,3 @@
-import Product from "./product";
-import UI from "./UI";
+import Product from "./product.js";
+import UI from "./UI.js";
 
-const Weed = new Product({
-    name: "Joint",
-    price: 1.5,
-    description: "Diesel sativa weed",
-})
-
-console.log(Weed.name);
